@@ -35,7 +35,7 @@ export default function AboutMe() {
                     </a>
                 </li>
                 <li>
-                    <a href=''>
+                    <a href='https://github.com/meganemcclure'>
                         <FaGithub class='icon'/>
                         <p>GitHub</p>
                     </a>
