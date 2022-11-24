@@ -1,10 +1,11 @@
 import './App.css';
-import { Navigation } from './Navigation';
+import { Navigation } from './Navigation'
+import AboutMe from './AboutMe'
 
 function App() {
   return (
-    <div>
-      <Navigation/>
+    <div class='card'>
+      <AboutMe />
     </div>
   );
 }
