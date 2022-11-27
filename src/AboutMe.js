@@ -10,7 +10,7 @@ export default function AboutMe() {
             <p>
                 Hello, I'm Megan! 
                 <br /><br />
-                I graduated from Computing at Queen's University in 2021, and am currently working as a 
+                I graduated from Computing at Queen's University in 2021, and I am currently working as a 
                 Fullstack Software Developer at <a href='https://monogramcc.com/'>Monogram Creative Console</a>. 
                 <br /><br />
                 In my free time I enjoy knitting and playing video games.
