@@ -1,15 +1,9 @@
-import './App.css';
-import { Navigation } from './Navigation'
 import AboutMe from './AboutMe'
-import Timeline from './components/Timeline';
-import PhotoCard from './components/PhotoCard';
 
 function App() {
   return (
-    <div class='card'>
+    <div>
       <AboutMe />
-      {/* <PhotoCard image={require('./images/baby_megan.jpg')}/> */}
-      {/* <Timeline /> */}
     </div>
   );
 }
