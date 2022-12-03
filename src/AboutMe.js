@@ -19,7 +19,7 @@ export default function AboutMe() {
                 </p>
             </div>
             <div class='divider'/>
-            <div class='about-section'>
+            <div class='about-section' id='contact-section'>
                 <h2>Contact Me</h2>
                 <ul>
                     <li>

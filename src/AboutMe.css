@@ -24,15 +24,14 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 40px;
-
-    max-width: 800px;
 }
 
 .divider {
     background-color: black;
-    height: 25em;
-    width: 5pt;
+    height: 300px;
+    width: 2px;
     border-radius: 20px;
+    flex-shrink: 0;
 }
 
 .about-section {
@@ -41,6 +40,15 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    max-width: 450px;
+}
+
+.about-section h1 {
+    text-align: center;
+}
+
+#contact-section {
+    min-width: 450px;
 }
 
 @media only screen and (max-width: 769px) {
@@ -49,7 +57,7 @@ ul {
     }
     .divider {
         background-color: black;
-        height: 1pt;
-        width: 15em;
+        height: 2px;
+        width: 300px;
     }
 }
