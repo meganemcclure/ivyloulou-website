@@ -29,8 +29,8 @@ ul {
 .divider {
     background-color: black;
     height: 300px;
-    width: 2px;
-    border-radius: 20px;
+    width: 1px;
+    border-radius: 5px;
     flex-shrink: 0;
 }
 
@@ -57,7 +57,8 @@ ul {
     }
     .divider {
         background-color: black;
-        height: 2px;
+        height: 1px;
+        border-radius: 5px;
         width: 300px;
     }
 }

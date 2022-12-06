@@ -5,8 +5,8 @@ import Button from './components/Button'
 
 export default function AboutMe() {
     return(
-        <div class='card'>
-            <div class='about-section'>
+        <div className='card'>
+            <div className='about-section'>
                 <img src={require('./media/profile_picture.jpg')} />
                 <h1>Hello, World!</h1>
                 <p>
@@ -18,8 +18,8 @@ export default function AboutMe() {
                     In my free time I enjoy knitting and playing video games.
                 </p>
             </div>
-            <div class='divider'/>
-            <div class='about-section' id='contact-section'>
+            <div className='divider'/>
+            <div className='about-section' id='contact-section'>
                 <h2>Contact Me</h2>
                 <ul>
                     <li>
@@ -28,15 +28,15 @@ export default function AboutMe() {
                 </ul>
 
                 <h2>Find me elsewhere on the internet</h2>
-                <ul class='links-box'>
+                <ul className='links-box'>
                     <li>
                         <Button link='https://www.linkedin.com/in/megan-mcclure-2216391a3/' icon={<FaLinkedin />} text='Linkedin'/>
                     </li>
                     <li>
-                        <Button link='https://github.com/meganemcclure' icon={<FaGithub class='icon'/>} text='GitHub'/>
+                        <Button link='https://github.com/meganemcclure' icon={<FaGithub className='icon'/>} text='GitHub'/>
                     </li>
                     <li>
-                        <Button link='https://www.instagram.com/ivyloulou.knits/' icon={<FaInstagram class='icon'/>} text='Knitting' />
+                        <Button link='https://www.instagram.com/ivyloulou.knits/' icon={<FaInstagram className='icon'/>} text='Knitting' />
                     </li>
                 </ul>
             </div>

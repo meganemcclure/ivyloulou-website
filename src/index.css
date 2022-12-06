@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(90deg, rgb(228, 166, 183) 0%, rgba(148,187,233,1) 100%);
+  /* background: linear-gradient(90deg, rgb(166, 228, 169) 0%, rgb(102, 168, 111) 100%); */
   display: flex;
   align-items: center;
   justify-content: center;
