@@ -1,0 +1,70 @@
+/* CONTENT SECTION STYLING */
+.designWorkSection {
+    margin: 300px 210px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.caseStudiesSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+}
+
+.caseStudy {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.caseStudy img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contentSection {
+    margin: 210px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+@media only screen and (max-width: 1200px) {
+    .designWorkSection {
+        margin: 300px 80px;
+    }
+    .caseStudiesSection {
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+    .contentSection {
+        margin: 80px;
+    }
+}
+
+@media only screen and (max-width: 992px) {    
+    .contentSection {
+        margin: 40px;
+    }
+
+    .designWorkSection {
+        margin: 100px 40px 40px 40px;
+    }
+
+    .caseStudiesSection {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .caseStudiesSection {
+        grid-template-columns: 1fr;
+    }
+
+    .caseStudySection {
+        flex-direction: column;
+    }
+}

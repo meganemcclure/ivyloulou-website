@@ -1,0 +1,45 @@
+/* CONTENT SECTION STYLING */
+.contentSection {
+    margin: 210px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+.caseStudySection {
+    display: flex;
+    gap: 80px;
+}
+
+.caseStudySection img {
+    width: 50%;
+    object-fit: cover;
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+@media only screen and (max-width: 1200px) {
+    .contentSection {
+        margin: 80px;
+    }
+}
+
+@media only screen and (max-width: 992px) {    
+    .contentSection {
+        margin: 40px;
+    }
+
+    .caseStudySection {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .caseStudySection img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .caseStudySection {
+        flex-direction: column;
+    }
+}
