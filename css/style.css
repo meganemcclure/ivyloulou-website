@@ -80,7 +80,7 @@ nav {
 
 .condensedNav {
     display: none;
-    z-index: 100;
+    z-index: 1000;
     height: 80px;
 }
 
@@ -148,10 +148,10 @@ nav {
 }
 
 .pageLink {
-    text-decoration: none;
+    text-decoration: none !important;
     display: inline-block;
     position: relative;
-    color: var(--darkGrey);
+    color: var(--darkGrey) !important;
 }
 
 .pageLink::after {
