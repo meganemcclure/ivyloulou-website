@@ -165,12 +165,16 @@ nav {
     background-color: var(--darkGrey);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    text-decoration: none !important;
+    color: var(--darkGrey) !important;
 }
 
 .pageLink:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
     cursor: pointer;
+    text-decoration: none !important;
+    color: var(--darkGrey) !important;
 }
 
 .inlineSocials li {
@@ -302,7 +306,7 @@ footer .inlineSocials li {
 }
 
 .footerColor {
-    color: var(--offWhite);
+    color: var(--offWhite) !important;
 }
 
 /* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
