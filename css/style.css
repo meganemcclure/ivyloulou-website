@@ -17,6 +17,7 @@ html {
 html, body {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 h1 {
@@ -198,7 +199,7 @@ nav {
     column-gap: 180px;
     justify-content: center;
     align-items: center;
-    padding: 0px 80px;
+    padding: 0px 10%;
     margin: 200px 0px 0px 0px;
 }
 
