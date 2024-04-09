@@ -24,31 +24,33 @@
 }
 
 .contentSection {
-    margin: 210px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    margin: 210px auto;
+    padding: 0px 25%;
     row-gap: 80px;
 }
 
-/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+@media only screen and (max-width: 1800px) {
+    .contentSection {
+        padding: 0px 10%;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .designWorkSection {
         margin: 300px 80px;
     }
+    
     .caseStudiesSection {
         grid-template-columns: 1fr 1fr;
         gap: 80px;
     }
-    .contentSection {
-        margin: 80px;
-    }
 }
 
 @media only screen and (max-width: 992px) {    
-    .contentSection {
-        margin: 40px;
-    }
-
     .designWorkSection {
         margin: 100px 40px 40px 40px;
     }
