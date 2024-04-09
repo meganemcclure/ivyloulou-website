@@ -216,6 +216,7 @@ nav {
     height: 2px;
     width: 100%;
     background-color: var(--darkGrey);
+    margin-bottom: 16px;
 }
 
 .heroSection img {
