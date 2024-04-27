@@ -1,0 +1,36 @@
+.downIconContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    bottom: 0px;
+}
+
+#downIcon {
+    font-size: 40px;
+    animation: bounceAnimation 1s infinite;
+}
+
+@keyframes bounceAnimation {
+    from {
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+
+    50% {
+        margin-top: 0px;
+        margin-bottom: 7px;
+    }
+
+    to {
+        margin-top: 7px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .downIconContainer {
+        padding: 20px 0px;
+    }
+}
