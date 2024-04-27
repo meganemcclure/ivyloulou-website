@@ -1,0 +1,34 @@
+/* FOOTER STYLING */
+footer {
+    background-color: var(--darkGreen);
+    color: var(--offWhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    padding: 100px;
+    text-align: center;
+}
+
+.footerSocials {
+    row-gap: 20px;
+}
+
+footer .inlineSocials li {
+    padding: 10px;
+}
+
+.footerDivider {
+    height: 2px;
+    width: 100%;
+    background-color: var(--offWhite);
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+/* tablet */
+@media only screen and (max-width: 992px) {    
+    footer {
+        padding: 40px;
+    }
+}

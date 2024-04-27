@@ -5,15 +5,16 @@ import './NavLink.css';
 interface NavLinkProps {
     href: string,
     text: string,
-    condensed: boolean
+    condensed?: boolean
+    invertColors?: boolean
 }
 
-function NavLink({href, text, condensed}: NavLinkProps) {
+function NavLink({href, text, condensed = false, invertColors = false}: NavLinkProps) {
 
   return (
     condensed ?
-      <li><a className="pageLink" href={href}><h3>{text}</h3></a></li> :
-      <li><a className="pageLink" href={href}><h5>{text}</h5></a></li>
+      <a className={'pageLink'.concat(invertColors ? ' offWhite' : ' darkGrey')} href={href}><h3>{text}</h3></a> :
+      <a className={'pageLink'.concat(invertColors ? ' offWhite' : ' darkGrey')} href={href}><h5>{text}</h5></a>
   );
 }
 

@@ -2,7 +2,6 @@
     text-decoration: none !important;
     display: inline-block;
     position: relative;
-    color: var(--darkGrey) !important;
 }
 
 .pageLink::after {
@@ -13,11 +12,9 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--darkGrey);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
     text-decoration: none !important;
-    color: var(--darkGrey) !important;
 }
 
 .pageLink:hover::after {
@@ -25,5 +22,18 @@
     transform-origin: bottom left;
     cursor: pointer;
     text-decoration: none !important;
+}
+
+.darkGrey {
     color: var(--darkGrey) !important;
+}
+.darkGrey::after {
+    background-color: var(--darkGrey);
+}
+
+.offWhite {
+    color: var(--offWhite) !important;
+}
+.offWhite::after {
+    background-color: var(--offWhite);
 }
