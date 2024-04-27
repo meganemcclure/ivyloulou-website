@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* GLOBAL STYLING */
+:root {
+  --darkGrey: #131212;
+  --offWhite: #FDFCFC;
+  --lightPink: #FFD5D0;
+  --darkGreen: #0F1D01;
+  --lightGreen: #32724D;
+  --transparentOffWhite: #FDFCFC00;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: var(--offWhite);
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 128px;
+  text-transform: capitalize;
+  line-height: 1em;
+  margin: 0px;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 96px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+h4 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+h5 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  color: var(--darkGreen);
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+/* small desktop screens */
+@media only screen and (max-width: 1200px) {
+  h1 { font-size: 96px; }
+  h2 { font-size: 48px; }
+  h3 { font-size: 36px; }
+  h4 { font-size: 32px; }
+  h5 { font-size: 28px; }
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {    
+  h1 { font-size: 48px; }
+  h2 { font-size: 36px; }
+  h3 { font-size: 32px; }
+  h4 { font-size: 28px; }
+  h5 { font-size: 26px; }
+}
+
+@media only screen and (max-width: 768px) {
+  a { font-size: 16px; }
+  p { font-size: 16px; }
+}

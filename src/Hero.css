@@ -1,0 +1,70 @@
+div {
+    white-space: pre-wrap;
+}
+
+.hero {
+    /* view height - top nav height - bottom arrow height */
+    height: calc(100vh - 200px - 127px);
+    display: flex;
+    column-gap: 180px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10%;
+    margin: 200px 0px 0px 0px;
+}
+
+.hero span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 40px;
+    width: 80%;
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    background-color: var(--darkGrey);
+    margin-bottom: 16px;
+}
+
+.hero img {
+    width: 30%;
+    border-radius: 100%;
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+/* small desktop screens */
+@media only screen and (max-width: 1200px) {
+    .hero {
+        gap: 80px;
+    }
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {    
+    .hero {
+        height: calc(100vh - 80px - 127px);
+        flex-direction: column;
+        gap: 40px;
+        padding: 0px 40px;
+        margin: 80px 0px 0px 0px;
+    }
+
+    .hero span {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 10px;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: calc(100vh - 80px - 87px);
+        padding: 0px 20px;
+    }
+}
