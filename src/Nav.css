@@ -1,0 +1,102 @@
+/* NAVBAR STYLING */
+nav {
+    background: linear-gradient(180deg, var(--offWhite), 90%, var(--transparentOffWhite));
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 100;
+}
+
+.condensedNav {
+    display: none;
+    z-index: 1000;
+    height: 80px;
+}
+
+.condensedNavContents {
+    display: none;
+}
+
+.condensedNavContents div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    gap: 10px;
+}
+
+.navDivider {
+    width: 50%;
+    color: var(--darkGrey);
+    height: 10px;
+}
+
+.condensedNav i {
+    font-size: 40px;
+    color: var(--darkGrey);
+    padding: 20px;
+}
+
+.open {
+    background: var(--offWhite);
+}
+
+.condensedNav ul,
+.classicNav ul {
+    padding: 0;
+    margin: 40px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.condensedNav button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.condensedNavContents ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.inlineSocials li {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inlineIcon {
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {    
+    .condensedNav {
+        display: block;
+    }
+
+    .classicNav ul {
+        display: none;
+    }
+}
