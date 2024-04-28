@@ -1,0 +1,29 @@
+.devDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+#githubIconBody {
+    font-size: 20vw;
+    color: var(--darkGrey);
+}
+
+/* tablet */
+@media only screen and (max-width: 992px) {    
+    .devDetails {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    #githubIconBody {
+        font-size: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #githubIconBody {
+        font-size: 150px;
+    }
+}

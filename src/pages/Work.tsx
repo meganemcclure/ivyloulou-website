@@ -1,13 +1,13 @@
 import Nav from '../components/Nav';
+import DevLink from '../components/DevLink';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-
-import wipImg from './../images/work-in-progress.png';
 
 export default function Work() {
     return <>
       <Nav />
-      <Hero img={wipImg} header='WIP' body='This page is a work in progress... please check back later.' />
+      <div className="contentSection">
+        <DevLink />
+      </div>
       <Footer />
     </>
 }

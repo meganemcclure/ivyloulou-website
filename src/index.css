@@ -72,6 +72,17 @@ a {
   color: var(--darkGreen);
 }
 
+/* CONTENT SECTION STYLING - universal styling for page content, keep it centered */
+.contentSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  margin: 140px auto;
+  padding: 0px 25%;
+  row-gap: 80px;
+}
+
 /* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
 /* small desktop screens */
 @media only screen and (max-width: 1200px) {
@@ -80,6 +91,10 @@ a {
   h3 { font-size: 36px; }
   h4 { font-size: 32px; }
   h5 { font-size: 28px; }
+
+  .contentSection {
+    padding: 0px 10%;
+  }
 }
 
 /* tablet */
