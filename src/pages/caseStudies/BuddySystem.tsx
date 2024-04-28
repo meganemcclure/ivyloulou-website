@@ -21,7 +21,7 @@ function BuddySystemCaseStudy() {
         <div className={styles.jumbotron}>
             <h1>UX Case Study: BuddySystem</h1>
             <h4>Make friends, build squads, buddy up!</h4>
-            <img src={BuddySystemMockup} />
+            <img src={BuddySystemMockup} className='img-fluid'/>
         </div>
 
         <div className="container">        
