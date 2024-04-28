@@ -9,11 +9,11 @@ function Nav() {
     <>
       <nav className="classicNav">
           <ul className="tabNav">
-              <li><NavLink href='./index.html' text='Home' condensed={false}/></li>
-              <li><NavLink href='./work.html' text='My Work' condensed={false}/></li>
-              <li><NavLink href='./about.html' text='About Me' condensed={false}/></li>
-              <li><NavLink href='./contact.html' text='Contact' condensed={false}/></li>
-              <li><NavLink href='./docs/Megan McClure Resume.pdf' text='Resume' condensed={false}/></li>
+              <li><NavLink href='/home' text='Home' condensed={false}/></li>
+              <li><NavLink href='/work' text='My Work' condensed={false}/></li>
+              <li><NavLink href='/about' text='About Me' condensed={false}/></li>
+              <li><NavLink href='/contact' text='Contact' condensed={false}/></li>
+              <li><NavLink href='/docs/Megan McClure Resume.pdf' text='Resume' condensed={false}/></li>
           </ul>
           <ul className="inlineSocials">
               <li>
@@ -32,10 +32,10 @@ function Nav() {
           <div className="condensedNavContents">
               <div>
                   <ul>
-                    <li><NavLink href='./index.html' text='Home' condensed={true}/></li>
-                    <li><NavLink href='./work.html' text='My Work' condensed={true}/></li>
-                    <li><NavLink href='./about.html' text='About Me' condensed={true}/></li>
-                    <li><NavLink href='./contact.html' text='Contact' condensed={true}/></li>
+                    <li><NavLink href='/home' text='Home' condensed={true}/></li>
+                    <li><NavLink href='/work' text='My Work' condensed={true}/></li>
+                    <li><NavLink href='/about' text='About Me' condensed={true}/></li>
+                    <li><NavLink href='/contact' text='Contact' condensed={true}/></li>
                     <li><NavLink href='./docs/Megan McClure Resume.pdf' text='Resume' condensed={true}/></li>
                   </ul>
                   <span className="navDivider"></span>
