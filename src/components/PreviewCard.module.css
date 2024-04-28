@@ -1,0 +1,30 @@
+.previewCardSection {
+    display: flex;
+    gap: 80px;
+}
+
+.previewCardSection img {
+    width: 50%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1800px) {
+    .contentSection {
+        padding: 0px 10%;
+    }
+}
+
+@media only screen and (max-width: 992px) {  
+    .previewCardSection {
+        flex-direction: column;
+    }
+
+    .previewCardSection span {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .previewCardSection img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
