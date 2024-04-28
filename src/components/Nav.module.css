@@ -13,6 +13,7 @@ nav {
     display: none;
     z-index: 1000;
     height: 80px;
+    /* animation: OpenAnimation 2s; */
 }
 
 .condensedNavContents {
@@ -46,6 +47,8 @@ nav {
 
 .open {
     background: var(--offWhite);
+    height: 100%;
+    display: block;
 }
 
 .condensedNav ul,
@@ -88,6 +91,16 @@ nav {
 .inlineIcon {
     font-size: 40px;
     padding-bottom: 5px;
+}
+
+@keyframes OpenAnimation {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 100%;
+    }
 }
 
 /* tablet */
