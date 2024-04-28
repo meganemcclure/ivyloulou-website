@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { About, Contact, Home, Work, BuddySystemCaseStudy, CanadaPostCaseStudy, RFECYCaseStudy, Error } from './pages';
 
 const root = ReactDOM.createRoot(
@@ -11,9 +11,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-          <Route index element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/home' element={<Home />} />
           <Route path='/work' element={<Work />} />
             <Route path='/work/buddySystemCaseStudy' element={<BuddySystemCaseStudy />} />
@@ -23,6 +23,6 @@ root.render(
           <Route path='/contact' element={<Contact />} />
           <Route path='*' element={<Error />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>
 );
