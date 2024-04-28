@@ -72,6 +72,13 @@ a {
   color: var(--darkGreen);
 }
 
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: var(--darkGrey);
+  margin-bottom: 16px;
+}
+
 /* CONTENT SECTION STYLING - universal styling for page content, keep it centered */
 .contentSection {
   display: flex;
@@ -79,7 +86,7 @@ a {
   justify-content: space-around;
   width: 100%;
   margin: 140px auto;
-  padding: 0px 25%;
+  padding: 0px 15%;
   row-gap: 80px;
 }
 

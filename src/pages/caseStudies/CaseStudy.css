@@ -1,0 +1,55 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css');
+
+p,
+ul,
+ol,
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* JUMBOTRON STYLING */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 145px 40px 40px 40px;
+    background-color: transparent;
+}
+
+/* CONTAINER STYLING */
+.primarySection {
+    padding: 40px 0px 40px 0px;
+}
+
+.secondarySection {
+    padding: 20px 0px 20px 0px;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -145px;
+    visibility: hidden;
+}
+
+/* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
+/* tablet */
+@media only screen and (max-width: 992px) {
+    .jumbotron {
+        padding: 100px 20px 20px 20px;
+    }
+
+    .anchor {
+        top: -100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    p,
+    ul,
+    ol,
+    li {
+        font-size: 16px;
+    }
+}

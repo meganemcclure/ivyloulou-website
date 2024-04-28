@@ -15,14 +15,30 @@ footer {
     row-gap: 20px;
 }
 
+footer .inlineSocials {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
 footer .inlineSocials li {
     padding: 10px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-indent: 0;
 }
 
 .footerDivider {
     height: 2px;
     width: 100%;
     background-color: var(--offWhite);
+}
+
+.inlineIcon {
+    font-size: 40px;
+    padding-bottom: 5px;
 }
 
 /* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */

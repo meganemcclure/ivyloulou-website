@@ -1,6 +1,4 @@
-import React from 'react';
-
-import './Hero.css';
+import styles from './Hero.module.css';
 
 interface HeroProps {
   img: string, 
@@ -10,7 +8,7 @@ interface HeroProps {
 
 function Hero({img, header, body}: HeroProps) {
   return (
-    <div className='hero'>
+    <div className={styles.hero}>
       <img src={img} />
       <span>
         <h1>{header}</h1>

@@ -1,6 +1,6 @@
-import './PreviewCard.css';
-
 import NavLink from './NavLink';
+
+import styles from './PreviewCard.module.css';
 
 interface PreviewCardProps {
     img: string, 
@@ -12,11 +12,11 @@ interface PreviewCardProps {
 
 function PreviewCard({img, title, description, link, linkText}: PreviewCardProps) {
     return (
-        <div className="previewCardSection">
+        <div className={styles.previewCardSection}>
             <img src={img} />
             <span>
                 <h4>{title}</h4>
-                <div className="divider"></div>
+                <div className='divider'></div>
                 <p>{description}</p>
                 <NavLink href={link} text={linkText} />
             </span>

@@ -1,6 +1,4 @@
-import React from 'react';
-
-import './NavLink.css';
+import styles from './NavLink.module.css';
 
 interface NavLinkProps {
     href: string,
@@ -10,11 +8,10 @@ interface NavLinkProps {
 }
 
 function NavLink({href, text, condensed = false, invertColors = false}: NavLinkProps) {
-
   return (
     condensed ?
-      <a className={'pageLink'.concat(invertColors ? ' offWhite' : ' darkGrey')} href={href}><h3>{text}</h3></a> :
-      <a className={'pageLink'.concat(invertColors ? ' offWhite' : ' darkGrey')} href={href}><h5>{text}</h5></a>
+      <a className={styles.pageLink} href={href}><h3>{text}</h3></a> :
+      <a className={styles.pageLink} href={href}><h5>{text}</h5></a>
   );
 }
 

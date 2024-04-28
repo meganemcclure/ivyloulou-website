@@ -1,13 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons/faChevronDown'
 
-import './BounceArrow.css';
-
+import styles from './BounceArrow.module.css';
 
 function BounceArrow() {
   return (
-    <div className="downIconContainer">
-      <FontAwesomeIcon id='downIcon' icon={faChevronDown} />
+    <div className={styles.downIconContainer}>
+      <FontAwesomeIcon id={styles.downIcon} icon={faChevronDown} />
     </div>
   )
 }

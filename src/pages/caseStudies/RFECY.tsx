@@ -4,6 +4,8 @@ import Footer from '../../components/Footer';
 
 import wipImg from '../../images/work-in-progress.png';
 
+// import './CaseStudy.css';
+
 function RFECYCaseStudy() {
     return <>
       <Nav />
