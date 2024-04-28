@@ -13,7 +13,7 @@ function Nav() {
               <li><NavLink href='/work' text='My Work' condensed={false}/></li>
               <li><NavLink href='/about' text='About Me' condensed={false}/></li>
               <li><NavLink href='/contact' text='Contact' condensed={false}/></li>
-              <li><NavLink href='/docs/Megan McClure Resume.pdf' text='Resume' condensed={false}/></li>
+              <li><NavLink href='/Megan McClure Resume.pdf' text='Resume' condensed={false}/></li>
           </ul>
           <ul className="inlineSocials">
               <li>
@@ -36,7 +36,7 @@ function Nav() {
                     <li><NavLink href='/work' text='My Work' condensed={true}/></li>
                     <li><NavLink href='/about' text='About Me' condensed={true}/></li>
                     <li><NavLink href='/contact' text='Contact' condensed={true}/></li>
-                    <li><NavLink href='./docs/Megan McClure Resume.pdf' text='Resume' condensed={true}/></li>
+                    <li><NavLink href='./Megan McClure Resume.pdf' text='Resume' condensed={true}/></li>
                   </ul>
                   <span className="navDivider"></span>
                   <ul>
