@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ivyloulou-website/static/css/main.111df55f.css",
+    "main.js": "/ivyloulou-website/static/js/main.66cef6cc.js",
+    "static/media/RFECYMockup.jpg": "/ivyloulou-website/static/media/RFECYMockup.df30c724795ff2bec30b.jpg",
+    "static/media/CanadaPostWebsiteMockup.jpg": "/ivyloulou-website/static/media/CanadaPostWebsiteMockup.22354b6ce943e5faf2c6.jpg",
+    "static/media/BuddySystem Case Study.jpg": "/ivyloulou-website/static/media/BuddySystem Case Study.edba34b3239f8c4b23de.jpg",
+    "static/media/BuddySystemMockup.jpg": "/ivyloulou-website/static/media/BuddySystemMockup.2e21396abc10a20a84f0.jpg",
+    "static/media/Double Diamond Design Process.jpg": "/ivyloulou-website/static/media/Double Diamond Design Process.4fd32d49b1162c95331a.jpg",
+    "static/media/Hi-Fi 2.jpg": "/ivyloulou-website/static/media/Hi-Fi 2.2802b5c3c661f1f1e6b2.jpg",
+    "static/media/Hi-Fi 1.jpg": "/ivyloulou-website/static/media/Hi-Fi 1.4b2413f1499140a72cba.jpg",
+    "static/media/IMG_0099 (5).jpg": "/ivyloulou-website/static/media/IMG_0099 (5).14c415086d0151deacd6.jpg",
+    "static/media/Lo-Fi 2.jpg": "/ivyloulou-website/static/media/Lo-Fi 2.65aab6a5b0d62023b56f.jpg",
+    "static/media/Lo-Fi 3.jpg": "/ivyloulou-website/static/media/Lo-Fi 3.964793f38bda49da1de6.jpg",
+    "static/media/Lo-Fi 1.jpg": "/ivyloulou-website/static/media/Lo-Fi 1.08904b5cc31e4255b338.jpg",
+    "static/media/Lo-Fi 5.png": "/ivyloulou-website/static/media/Lo-Fi 5.7ad00f66a931b40a78ab.png",
+    "static/media/Lo-Fi 6.png": "/ivyloulou-website/static/media/Lo-Fi 6.ed1fd54dcc4653100e10.png",
+    "static/media/Lo-Fi 4.png": "/ivyloulou-website/static/media/Lo-Fi 4.39baea0779de391b85f1.png",
+    "static/media/404-icon.png": "/ivyloulou-website/static/media/404-icon.28bf8405d2222861117a.png",
+    "static/media/work-in-progress.png": "/ivyloulou-website/static/media/work-in-progress.bfc5344d2cda72ea3895.png",
+    "index.html": "/ivyloulou-website/index.html",
+    "main.111df55f.css.map": "/ivyloulou-website/static/css/main.111df55f.css.map",
+    "main.66cef6cc.js.map": "/ivyloulou-website/static/js/main.66cef6cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.111df55f.css",
+    "static/js/main.66cef6cc.js"
+  ]
+}
