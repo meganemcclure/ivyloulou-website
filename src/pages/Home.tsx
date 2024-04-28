@@ -1,7 +1,7 @@
-import Nav from '../Nav';
-import Hero from '../Hero';
-import BounceArrow from '../BounceArrow';
-import Footer from '../Footer';
+import Nav from '../components/Nav';
+import Hero from '../components/Hero';
+import BounceArrow from '../components/BounceArrow';
+import Footer from '../components/Footer';
 
 import HeroImg from '../images/IMG_0099 (5).jpg';
 
