@@ -13,11 +13,13 @@ nav {
     display: none;
     z-index: 1000;
     height: 80px;
-    /* animation: OpenAnimation 2s; */
+    transition: 0.5s ease-out;
 }
 
 .condensedNavContents {
     display: none;
+    height: 0%;
+    transition: 1s ease-in;
 }
 
 .condensedNavContents div {
@@ -91,16 +93,6 @@ nav {
 .inlineIcon {
     font-size: 40px;
     padding-bottom: 5px;
-}
-
-@keyframes OpenAnimation {
-    from {
-        height: 0%;
-    }
-
-    to {
-        height: 100%;
-    }
 }
 
 /* tablet */
