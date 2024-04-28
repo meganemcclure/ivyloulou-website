@@ -1,10 +1,13 @@
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Hero from '../components/Hero';
+
+import wipImg from './../images/work-in-progress.png';
 
 export default function Contact() {
     return <>
       <Nav />
-      <h1>This page is a work in progress... check back later</h1>
+      <Hero img={wipImg} header='WIP' body='This page is a work in progress... please check back later.' />
       <Footer />
     </>
 }
