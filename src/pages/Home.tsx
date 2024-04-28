@@ -11,7 +11,7 @@ export default function Home() {
       <Hero 
         img={HeroImg} 
         header={'Hello, World!'}
-        body={'I’m Megan, a fullstack software developer and aspiring UI/UX designer with a passion for making things and solving problems.\n\nMy skills include software development, user experience design, and user interface design.'}
+        body={'I’m Megan, a fullstack software developer and UI/UX designer with a passion for making things (apps, yarn, and anything in between).\n\nMy skills include software development, user experience design, and user interface design.'}
       />
       <BounceArrow />
         <div className="contentSection">
