@@ -1,39 +1,32 @@
 import Nav from "../../components/Nav";
 import Footer from '../../components/Footer';
 
-// import './CaseStudy.css';
+import styles from './CaseStudy.module.css';
+
+import BuddySystemMockup from '../../images/BuddySystemMockup.jpg';
+import DesignProcess from '../../images/buddySystem/Double Diamond Design Process.jpg';
+import CaseStudy from '../../images/buddySystem/BuddySystem Case Study.jpg';
+import Lofi1 from '../../images/buddySystem/Lo-Fi 1.jpg';
+import Lofi2 from '../../images/buddySystem/Lo-Fi 2.jpg';
+import Lofi3 from '../../images/buddySystem/Lo-Fi 3.jpg';
+import Lofi4 from '../../images/buddySystem/Lo-Fi 4.png';
+import Lofi5 from '../../images/buddySystem/Lo-Fi 5.png';
+import Lofi6 from '../../images/buddySystem/Lo-Fi 6.png';
+import Hifi1 from '../../images/buddySystem/Hi-Fi 1.jpg';
+import Hifi2 from '../../images/buddySystem/Hi-Fi 2.jpg';
 
 function BuddySystemCaseStudy() {
     return <>
         <Nav />
-        <div className="jumbotron jumbotron-fluid">
+        <div className={styles.jumbotron}>
             <h1>UX Case Study: BuddySystem</h1>
             <h4>Make friends, build squads, buddy up!</h4>
-            <img src="../../images/buddySystem/BuddySystem Mockup.jpg" className="img-fluid" />
+            <img src={BuddySystemMockup} />
         </div>
 
-        {/* <nav className="navbar navbar-expand navbar-light bg-light">
-            <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-                <ul className="navbar-nav">
-                    <li className="nav-item dropdown">
-                        <h5 className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jump to a Section</h5>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a className="dropdown-item" href="#projectOverview">Project Overview</a>
-                            <a className="dropdown-item" href="#phaseOne">Phase 1: User Research</a>
-                            <a className="dropdown-item" href="#phaseTwo">Phase 2: Problem Definition</a>
-                            <a className="dropdown-item" href="#phaseThree">Phase 3: Ideation</a>
-                            <a className="dropdown-item" href="#phaseFour">Phase 4: Low Fidelity Prototyping</a>
-                            <a className="dropdown-item" href="#phaseFive">Phase 5: Usability Testing & Iterations</a>
-                            <a className="dropdown-item" href="#phaseSix">Phase 6: Final Thoughts</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav> */}
-
         <div className="container">        
-            <div className="primarySection">
-                <div className="secondarySection">
+            <div className={styles.primarySection}>
+                <div className={styles.secondarySection}>
                     <h3>The Problem</h3>
                     <p>
                         In today's digital age, the market for social apps is oversaturated with an abundance 
@@ -49,12 +42,12 @@ function BuddySystemCaseStudy() {
                     </p>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>The Process</h3>
-                    <img src="../images/buddySystem/Double Diamond Design Process.jpg" className="img-fluid" />
+                    <img src={DesignProcess} className='img-fluid'/>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>The Solution</h3>
                     <p>
                         BuddySystem is a unique platform that strives to create a welcoming environment for 
@@ -65,7 +58,7 @@ function BuddySystemCaseStudy() {
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="projectOverview"></a>
                 <h2>Project Overview</h2>
                 <div className="secondarySection row">
@@ -104,7 +97,7 @@ function BuddySystemCaseStudy() {
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseOne"></a>
                 <h2>Phase 1: User Research</h2>
                 <p>
@@ -118,7 +111,7 @@ function BuddySystemCaseStudy() {
                     User Persona to reflect our target user
                 </p>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Themes</h3>
                     <ol>
                         <li>
@@ -136,16 +129,16 @@ function BuddySystemCaseStudy() {
                     </ol>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>User Persona</h3>
-                    <img src="../images/buddySystem/BuddySystem Case Study.jpg" className="img-fluid" />
+                    <img src={CaseStudy} className="img-fluid" />
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseTwo"></a>
                 <h2>Phase 2: Problem Definition</h2>
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Problem Statement</h3>
                     <p>The widespread prevalence of online engagement has contributed to the emergence of 
                         limited social interaction models, which produce unsatisfactory outcomes for users. 
@@ -159,10 +152,10 @@ function BuddySystemCaseStudy() {
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseThree"></a>
                 <h2>Phase 3: Ideation</h2>
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Ideation & Brainstorming</h3>
                     <p>
                         Building on our initial research we conducted a competitor analysis, and brainstormed 
@@ -185,7 +178,7 @@ function BuddySystemCaseStudy() {
                     </ol>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Value Proposition</h3>
                     <p>
                         Meet your new BFF: BuddySystem!
@@ -203,10 +196,10 @@ function BuddySystemCaseStudy() {
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseFour"></a>
                 <h2>Phase 4: Low Fidelity Prototyping</h2>
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <p>
                         Time to make this application, not so theoretical with some lo-fi prototypes.
                         <br />
@@ -216,14 +209,14 @@ function BuddySystemCaseStudy() {
                         created user flow and our desired features list we created some low-fidelity wireframes.
                     </p>
                     <div className="row">
-                        <img className="col-md-4" src="../images/buddySystem/Lo-Fi 1.jpg" />
-                        <img className="col-md-4" src="../images/buddySystem/Lo-Fi 2.jpg" />
-                        <img className="col-md-4" src="../images/buddySystem/Lo-Fi 3.jpg" />
+                        <img className="col-md-4" src={Lofi1} />
+                        <img className="col-md-4" src={Lofi2} />
+                        <img className="col-md-4" src={Lofi3} />
                     </div>
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseFive"></a>
                 <h2>Phase 5: Usability Testing & Iterations</h2>
                 <p>
@@ -231,11 +224,11 @@ function BuddySystemCaseStudy() {
                     2 rounds? we wanted to ensure the UX was nailed down before creating any Hi-Fi mockups.
                 </p>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Key Learnings from Usability Testing</h3>
 
 
-                    <div className="secondarySection">
+                    <div className={styles.secondarySection}>
                         <p>
                             <b>Problem:</b> The swipe behaviour for the onboarding was not clear to users. Many 
                             wanted to tap on the arrows instead of swipe, and about 50% of the users who picked 
@@ -246,11 +239,11 @@ function BuddySystemCaseStudy() {
                             <b>Solution:</b> Update swipe to tap.
                         </p>
                         <div className="row">
-                            <img className="col-md-4" src="../images/buddySystem/Lo-Fi 4.png" />
+                            <img className="col-md-4" src={Lofi4} />
                         </div>
                     </div>
 
-                    <div className="secondarySection">
+                    <div className={styles.secondarySection}>
                         <p>
                             <b>Problem:</b> Difference between the recommended section vs the existing section 
                             was not clear to users. They often didn't know if the buddies, groups, and events 
@@ -260,11 +253,11 @@ function BuddySystemCaseStudy() {
                             <b>Solution:</b> Update layout - emphasize recommended at the top.
                         </p>
                         <div className="row">
-                            <img className="col-md-4" src="../images/buddySystem/Lo-Fi 5.png" />
+                            <img className="col-md-4" src={Lofi5} />
                         </div>
                     </div>
 
-                    <div className="secondarySection">
+                    <div className={styles.secondarySection}>
                         <p>
                             <b>Problem:</b> Many users noted that starting off with an 'About Me' questionnaire 
                             made it feel like a hookup application (oops, not our intention, platonic friends 
@@ -274,12 +267,12 @@ function BuddySystemCaseStudy() {
                             <b>Solution:</b> lead with interests before jumping into a questionnaire.
                         </p>
                         <div className="row">
-                            <img className="col-md-4" src="../images/buddySystem/Lo-Fi 6.png" />
+                            <img className="col-md-4" src={Lofi6} />
                         </div>
                     </div>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Key Learnings from the Final Round of Usability Testing</h3>
                     <p>
                         <b>Problem:</b> The difference between the recommended section vs the existing 
@@ -296,7 +289,7 @@ function BuddySystemCaseStudy() {
                     </p>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Final Low Fidelity Prototype - Demo</h3>
                     <div className="embed-responsive embed-responsive-16by9">
                         <iframe src="https://www.youtube.com/embed/wayMjQVI8NU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
@@ -304,18 +297,18 @@ function BuddySystemCaseStudy() {
                 </div>
             </div>
 
-            <div className="primarySection">
+            <div className={styles.primarySection}>
                 <a className="anchor" id="phaseSix"></a>
                 <h2>Phase 6: Final Thoughts</h2>
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Hi-Fi Mockups</h3>
                     <div className="row">
-                        <img className="col-md-4" src="../images/buddySystem/Hi-Fi 1.jpg" />
-                        <img className="col-md-4" src="../images/buddySystem/Hi-Fi 2.jpg" />
+                        <img className="col-md-4" src={Hifi1} />
+                        <img className="col-md-4" src={Hifi2} />
                     </div>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Future Improvements</h3>
                     <p>
                         <b>Planned Improvement:</b> Further user testing and iteration to clearly differentiate between which is the recommended 
@@ -379,7 +372,7 @@ function BuddySystemCaseStudy() {
                     </p>
                 </div>
 
-                <div className="secondarySection">
+                <div className={styles.secondarySection}>
                     <h3>Final Thoughts</h3>
                     <p>So, what did we actually learn from this project?</p>
                     <ol>
