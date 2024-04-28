@@ -27,3 +27,11 @@
     text-decoration: none !important;
     color: var(--darkGrey) !important;
 }
+
+.offWhite {
+    color: var(--offWhite) !important;
+}
+
+.offWhite:after {
+    background-color: var(--offWhite) !important;
+}

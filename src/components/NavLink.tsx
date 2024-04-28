@@ -10,8 +10,8 @@ interface NavLinkProps {
 function NavLink({href, text, condensed = false, invertColors = false}: NavLinkProps) {
   return (
     condensed ?
-      <a className={styles.pageLink} href={href}><h3>{text}</h3></a> :
-      <a className={styles.pageLink} href={href}><h5>{text}</h5></a>
+      <a className={`${styles.pageLink} ${invertColors ? styles.offWhite: ''}`} href={href}><h3>{text}</h3></a> :
+      <a className={`${styles.pageLink} ${invertColors ? styles.offWhite: ''}`} href={href}><h5>{text}</h5></a>
   );
 }
 
