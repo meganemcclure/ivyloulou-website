@@ -17,7 +17,7 @@ function Nav() {
         <>
         <nav className={styles.classicNav}>
             <ul className={styles.tabNav}>
-                <li><NavLink href='#/home' text='Home' condensed={false}/></li>
+                <li><NavLink href='/home' text='Home' condensed={false}/></li>
                 <li><NavLink href='/work' text='My Work' condensed={false}/></li>
                 <li><NavLink href='/about' text='About Me' condensed={false}/></li>
                 <li><NavLink href='/contact' text='Contact' condensed={false}/></li>
