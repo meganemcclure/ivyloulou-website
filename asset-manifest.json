@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ivyloulou-website/static/css/main.111df55f.css",
-    "main.js": "/ivyloulou-website/static/js/main.a1abff76.js",
+    "main.css": "/ivyloulou-website/static/css/main.c8c44f79.css",
+    "main.js": "/ivyloulou-website/static/js/main.7366e83f.js",
     "static/media/RFECYMockup.jpg": "/ivyloulou-website/static/media/RFECYMockup.df30c724795ff2bec30b.jpg",
     "static/media/CanadaPostWebsiteMockup.jpg": "/ivyloulou-website/static/media/CanadaPostWebsiteMockup.22354b6ce943e5faf2c6.jpg",
     "static/media/BuddySystem Case Study.jpg": "/ivyloulou-website/static/media/BuddySystem Case Study.edba34b3239f8c4b23de.jpg",
@@ -19,11 +19,11 @@
     "static/media/404-icon.png": "/ivyloulou-website/static/media/404-icon.28bf8405d2222861117a.png",
     "static/media/work-in-progress.png": "/ivyloulou-website/static/media/work-in-progress.bfc5344d2cda72ea3895.png",
     "index.html": "/ivyloulou-website/index.html",
-    "main.111df55f.css.map": "/ivyloulou-website/static/css/main.111df55f.css.map",
-    "main.a1abff76.js.map": "/ivyloulou-website/static/js/main.a1abff76.js.map"
+    "main.c8c44f79.css.map": "/ivyloulou-website/static/css/main.c8c44f79.css.map",
+    "main.7366e83f.js.map": "/ivyloulou-website/static/js/main.7366e83f.js.map"
   },
   "entrypoints": [
-    "static/css/main.111df55f.css",
-    "static/js/main.a1abff76.js"
+    "static/css/main.c8c44f79.css",
+    "static/js/main.7366e83f.js"
   ]
 }
