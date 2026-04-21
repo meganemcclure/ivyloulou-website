@@ -10,6 +10,7 @@
   --darkGreen: #0F1D01;
   --lightGreen: #32724D;
   --transparentOffWhite: #FDFCFC00;
+  --accentYellow: #ECFF00;
 }
 
 html {
@@ -89,6 +90,65 @@ a {
   margin: 140px auto;
   padding: 0px 15%;
   row-gap: 80px;
+}
+
+.nav-container {
+  position: absolute;
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.homepage-text {
+  color: var(--accentYellow);
+  text-decoration: none;
+}
+
+.barcode-text {
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-size: 2rem;
+}
+
+.hero-text {
+  font-family: "Luxurious Script", sans-serif;
+  font-size: 10rem;
+}
+
+.homepage-nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  object-fit: cover;
+  align-items: center;
+}
+
+.lace-overlay {
+  position: absolute;
+  width: 100vw;
+  /* rotate: 135deg; */
+  opacity: 20%;
 }
 
 /* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
