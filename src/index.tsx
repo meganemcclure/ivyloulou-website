@@ -48,13 +48,25 @@ root.render(
 		</div>
 		<div className="nav-container">
 			<div className="nav-icons">
-				<a href="" className="homepage-text">
+				<a
+					href="https://www.instagram.com/ivyloulou.knits/"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
 					<FontAwesomeIcon icon={faInstagram} />
 				</a>
-				<a href="" className="homepage-text">
+				<a
+					href="https://github.com/meganemcclure"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
 					<FontAwesomeIcon icon={faGithub} />
 				</a>
-				<a href="" className="homepage-text">
+				<a
+					href="https://www.linkedin.com/in/megan-mcclure-2216391a3/"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
 					<FontAwesomeIcon icon={faLinkedin} />
 				</a>
 			</div>
@@ -63,15 +75,19 @@ root.render(
 		<div className="hero-container homepage-text">
 			<h1 className="hero-text">Welcome</h1>
 			<div className="homepage-nav-buttons">
-				<a href="/resume" className="homepage-text">
+				<a
+					href="/ivyloulou-website/Megan McClure Resume.pdf"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
 					resume
 				</a>
 				<p>●</p>
-				<a href="/knitting" className="homepage-text">
+				<a href="/knitting" className="homepage-text homepage-link">
 					knitting
 				</a>
 				<p>●</p>
-				<a href="about" className="homepage-text">
+				<a href="about" className="homepage-text homepage-link">
 					about
 				</a>
 			</div>

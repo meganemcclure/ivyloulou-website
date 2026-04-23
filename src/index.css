@@ -111,6 +111,36 @@ a {
   text-decoration: none;
 }
 
+.homepage-link {
+  text-decoration: none !important;
+  display: inline-block;
+  position: relative;
+  color: var(--accentYellow) !important;
+}
+
+.homepage-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  text-decoration: none !important;
+  color: var(--accentYellow) !important;
+  background-color: var(--accentYellow);
+}
+
+.homepage-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--accentYellow) !important;
+}
+
 .barcode-text {
   font-family: "Libre Barcode 39 Text", system-ui;
   font-size: 2rem;
