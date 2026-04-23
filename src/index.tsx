@@ -44,7 +44,7 @@ root.render(
       </HashRouter> */}
 		<div className="hero-container">
 			<img src={forestImage} className="hero-image" />
-			{/* <img src={lace} className="lace-overlay" /> */}
+			<img src={lace} className="lace-overlay" />
 		</div>
 		<div className="nav-container">
 			<div className="nav-icons">
