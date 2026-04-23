@@ -23,6 +23,7 @@ import {
 	Error,
 } from "./pages";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 
 const root = ReactDOM.createRoot(
 	document.getElementById("root") as HTMLElement,
@@ -56,14 +57,14 @@ root.render(
 				>
 					resume
 				</a>
-				<p>●</p>
+				{/* <p>●</p>
 				<a href="/knitting" className="homepage-text homepage-link">
 					knitting
 				</a>
 				<p>●</p>
 				<a href="about" className="homepage-text homepage-link">
 					about
-				</a>
+				</a> */}
 			</div>
 		</div>
 		<div className="nav-container">
@@ -88,6 +89,13 @@ root.render(
 					className="homepage-text homepage-link"
 				>
 					<FontAwesomeIcon icon={faLinkedin} />
+				</a>
+				<a
+					href="mailto:meganemcclure@gmail.com"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
+					<FontAwesomeIcon icon={faEnvelope} />
 				</a>
 			</div>
 			<p className="homepage-text barcode-text">Megan McClure</p>
