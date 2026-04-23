@@ -118,6 +118,7 @@ a {
   display: inline-block;
   position: relative;
   color: var(--accentYellow) !important;
+  height: fit-content;
 }
 
 .homepage-link::after {
@@ -128,6 +129,7 @@ a {
   height: 2px;
   bottom: 0;
   left: 0;
+  text-align: center;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
   text-decoration: none !important;
@@ -178,8 +180,7 @@ a {
 
 .lace-overlay {
   position: absolute;
-  /* width: 180vw; */
-  height: 260vh;
+  height: 280vh;
   rotate: 135deg;
   opacity: 20%;
   bottom: -50%;

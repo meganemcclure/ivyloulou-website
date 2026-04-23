@@ -46,6 +46,26 @@ root.render(
 			<img src={forestImage} className="hero-image" />
 			<img src={lace} className="lace-overlay" />
 		</div>
+		<div className="hero-container homepage-text">
+			<h1 className="hero-text">Welcome</h1>
+			<div className="homepage-nav-buttons">
+				<a
+					href="/ivyloulou-website/Megan McClure Resume.pdf"
+					target="_blank"
+					className="homepage-text homepage-link"
+				>
+					resume
+				</a>
+				<p>●</p>
+				<a href="/knitting" className="homepage-text homepage-link">
+					knitting
+				</a>
+				<p>●</p>
+				<a href="about" className="homepage-text homepage-link">
+					about
+				</a>
+			</div>
+		</div>
 		<div className="nav-container">
 			<div className="nav-icons">
 				<a
@@ -71,26 +91,6 @@ root.render(
 				</a>
 			</div>
 			<p className="homepage-text barcode-text">Megan McClure</p>
-		</div>
-		<div className="hero-container homepage-text">
-			<h1 className="hero-text">Welcome</h1>
-			<div className="homepage-nav-buttons">
-				<a
-					href="/ivyloulou-website/Megan McClure Resume.pdf"
-					target="_blank"
-					className="homepage-text homepage-link"
-				>
-					resume
-				</a>
-				<p>●</p>
-				<a href="/knitting" className="homepage-text homepage-link">
-					knitting
-				</a>
-				<p>●</p>
-				<a href="about" className="homepage-text homepage-link">
-					about
-				</a>
-			</div>
 		</div>
 	</React.StrictMode>,
 );
