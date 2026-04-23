@@ -10,6 +10,7 @@
   --darkGreen: #0F1D01;
   --lightGreen: #32724D;
   --transparentOffWhite: #FDFCFC00;
+  --accentYellow: #ECFF00;
 }
 
 html {
@@ -22,7 +23,9 @@ html, body {
   padding: 0;
   margin: 0;
   width: 100%;
+  height: 100%;
   background-color: var(--offWhite);
+  overflow: hidden;
 }
 
 h1 {
@@ -89,6 +92,99 @@ a {
   margin: 140px auto;
   padding: 0px 15%;
   row-gap: 80px;
+}
+
+.nav-container {
+  position: absolute;
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.homepage-text {
+  color: var(--accentYellow);
+  text-decoration: none;
+}
+
+.homepage-link {
+  text-decoration: none !important;
+  display: inline-block;
+  position: relative;
+  color: var(--accentYellow) !important;
+  height: fit-content;
+}
+
+.homepage-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  text-decoration: none !important;
+  color: var(--accentYellow) !important;
+  background-color: var(--accentYellow);
+}
+
+.homepage-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--accentYellow) !important;
+}
+
+.barcode-text {
+  font-family: "Libre Barcode 39 Text", system-ui;
+  font-size: 2rem;
+}
+
+.hero-text {
+  font-family: "Luxurious Script", sans-serif;
+  font-size: 10rem;
+}
+
+.homepage-nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
+  object-fit: cover;
+  align-items: center;
+}
+
+.lace-overlay {
+  position: absolute;
+  height: 280vh;
+  rotate: 135deg;
+  opacity: 20%;
+  bottom: -50%;
+  right: 0;
 }
 
 /* RECOMMENDED DEVICE SIZES FROM W3SCHOOLS (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) */
